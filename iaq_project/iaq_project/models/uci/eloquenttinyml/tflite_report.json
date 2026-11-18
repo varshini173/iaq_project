@@ -1,0 +1,39 @@
+{
+  "hidden": [
+    32,
+    16,
+    8
+  ],
+  "keras_float_test": {
+    "accuracy": 0.881203007518797,
+    "precision_macro": 0.8191796132419283,
+    "recall_macro": 0.746900409043065,
+    "f1_macro": 0.7694163277984952
+  },
+  "tflite_int8_test": {
+    "accuracy": 0.8804511278195488,
+    "precision_macro": 0.8136193377702812,
+    "recall_macro": 0.7389238458416663,
+    "f1_macro": 0.7602812568395289
+  },
+  "tflite_bytes_int8": 5976,
+  "tflite_bytes_float32": 6468,
+  "agreement_float_vs_int8": 0.9917293233082707,
+  "confusion_matrix_int8": [
+    [
+      257,
+      30,
+      0
+    ],
+    [
+      61,
+      878,
+      14
+    ],
+    [
+      0,
+      54,
+      36
+    ]
+  ]
+}
